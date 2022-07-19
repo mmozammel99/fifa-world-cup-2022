@@ -1,0 +1,109 @@
+/* Font style  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* nav bar  */
+.top {
+    display: flex;
+    background-image: linear-gradient(#A41D4A, #2F1524);
+    margin: 40px 120px;
+    border-radius: 30px;
+
+}
+
+.top-info {
+    width: 50%;
+    color: #ffffff;
+    padding: 110px;
+    padding-bottom: 0px;
+}
+
+.top-info h1 {
+    font-weight: 700;
+    font-size: 50px;
+    margin: 0;
+}
+
+.top-info #top-info-text {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.top-info button {
+
+    font-weight: 400;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+
+
+}
+
+.top-info a {
+    display: flex;
+    text-decoration: none;
+    color: #3E1629;
+    padding: 10px 30px;
+
+}
+
+.top-info i {
+    margin-right: 10px;
+    transition: transform 0.2s;
+}
+
+.live-watch {
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.top-info .live-watch {
+    transition: transform 0.2s;
+}
+
+.top-info button:hover i {
+    color: #A41D4A;
+    transform: translate(105px);
+    margin-right: 0px;
+    margin-left: 2px;
+}
+
+.top-info button:hover .live-watch {
+    color: #A41D4A;
+    transform: translate(-25px);
+}
+.contaner{
+    
+    display: flex;
+}
+.manu{
+    margin-left: 120px;
+    display: grid;
+    background-color: #2F1524;
+    width: 312px;
+height: 312px;
+border-radius: 10px;
+}
+.manu button{
+    font-weight: 500;
+font-size: 20px;
+    border: 0ch;
+    margin: 25px;
+    width: 252px;
+    height: 50px;
+border-radius: 10px;
+}
+.manu #selected-button{
+    color: #ffffff;
+    background-color: #B11836;
+
+}
